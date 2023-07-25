@@ -1,44 +1,69 @@
-# Instagram Clone Project
+# Getting Started with Create React App
 
-This project is an Instagram clone built using React, Firebase, and MUI (Material-UI). It aims to replicate some of the core features of the popular social media platform, Instagram. However, it's essential to note that this clone does not have a backend to store data, which means that certain functions may not work as intended.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Technologies Used
+## Available Scripts
 
-- **React**: The front-end of the application is developed using React, a popular JavaScript library for building user interfaces.
-- **Firebase**: Firebase is utilized to handle authentication, storage, and hosting aspects of the project.
-- **MUI (Material-UI)**: MUI is a popular React UI framework that provides a set of pre-designed components and styles, giving the project a polished and professional look.
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-While this Instagram clone replicates some key features found in the original platform, it is crucial to understand that due to the lack of a backend, certain functionalities might be limited or not fully operational. The main features that are included in this clone are:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- User Authentication: Users can sign up, log in, and log out of the application.
-- Post Feed: Users can view a feed of posts shared by other users.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Limitations
+### `npm test`
 
-As mentioned earlier, this Instagram clone lacks a backend to store data. Consequently, the following functionalities might not work as expected or be unavailable:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Data Persistence: Since there's no backend, data is not stored permanently. This means that posts, comments, and user information will not persist across sessions.
-- Real-time Updates: The application won't support real-time updates on the feed, such as automatically showing new posts or notifications when someone interacts with a post.
-- User Following: Without a backend, implementing a complete user following system becomes challenging, and this feature might not be available.
-- Direct Messaging: Building a real-time chat feature requires a backend with web sockets, so direct messaging functionality is not present in this clone.
+### `npm run build`
 
-## Getting Started
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-To run the project locally, follow these steps:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository: `git clone https://github.com/your-username/instagram-clone.git`
-2. Install dependencies: `npm install`
-3. Run the development server: `npm start`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Please keep in mind that this clone is primarily intended for learning purposes and as a portfolio project to showcase skills with React, Firebase, and MUI.
+### `npm run eject`
 
-> Note: As of the project's current state, any data you enter or upload will only be available for the duration of your session, and it will not be saved or accessible after closing the application.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Disclaimer
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-This project is not affiliated with or endorsed by Instagram or any other associated parties. It is an independent, educational project developed for personal learning purposes only.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Remember that while the project demonstrates the frontend of an Instagram-like application, building a full-fledged, production-ready social media platform would require a robust and secure backend to manage data and user interactions effectively.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
 
